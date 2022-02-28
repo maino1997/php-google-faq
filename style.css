@@ -30,6 +30,17 @@ header{
     right: 0;
     background-color: white;
     border-bottom: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.upper-header{
+    display: flex;
+    align-items: center;
 }
 
 
@@ -57,18 +68,43 @@ header{
     font-family: 'Montserrat', sans-serif;
     color:
     rgb(95, 99, 104);
-
+    font-weight:
+600;
+line-height:
+21.45px;
+text-decoration: none;
 }
 
-.bottom-header a:hover{
-    color: blue;
-    border-bottom: 2px blue solid;
-}
+
 
 .bottom-header li:last-child{
     color: blue;
     border-bottom: 2px blue solid;
 }
+
+.right-header{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+
+#profile-picture{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(107, 63, 63, 0.877);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi{
+    margin-right: 10px;
+}
+
+
 
 #logo{
     height: 50px;
