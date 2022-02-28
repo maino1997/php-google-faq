@@ -12,7 +12,7 @@ $sections = [
             i risultati visualizzati devono essere inadeguati, irrilevanti o non più rilevanti, o eccessivi.',
             'Da quando questa decisione è stata pubblicata il 13 maggio 2014, abbiamo lavorato incessantemente per uniformarci a essa. Si tratta di una procedura complessa perché dobbiamo valutare ogni singola richiesta e effettuare un bilanciamento tra il diritto dell \'individuo
              a controllare i suoi dati personali ed il diritto di tutti di conoscere e distribuire le informazioni.',
-             'Per presentare una richiesta di rimozione, compila questo modulo web. 
+             'Per presentare una richiesta di rimozione, compila questo <a href="#"> modulo web </a>. 
              Riceverai una risposta automatica che conferma la ricezione della tua richiesta. 
              Dopodiché valuteremo il tuo caso (tieni presente che potrebbe occorrere un po \' di tempo 
              perché abbiamo già ricevuto tante richieste simili). Nel valutare la richiesta, considereremo 
@@ -47,7 +47,7 @@ $sections = [
                  di facile utilizzo come Google Dashboard, la verifica in due passaggi e Impostazioni annunci. Così, per quanto 
                  riguarda le informazioni che condividi con Google, hai il massimo controllo.',
                  'Puoi leggere ulteriori informazioni sulla sicurezza online, incluso come proteggere te e la tua famiglia online, 
-                 nel Centro Google per la sicurezza online.',
+                 nel <a href="#"> Centro Google per la sicurezza online. </a>',
                  'Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue informazioni personali, lasciando a te il controllo.'
             ]
             ],
@@ -76,7 +76,7 @@ $sections = [
                  potrebbe occorrere circa un anno per aggiornare l\'associazione del paese.',
                  'Se il paese associato al tuo account non corrisponde al tuo paese di residenza, il motivo potrebbe essere la differenza 
                  tra il paese in cui lavori e il paese in cui risiedi, l\'installazione di una rete privata virtuale (VPN) per mascherare
-                  il tuo indirizzo IP oppure la residenza vicino a un confine territoriale. Contattaci se ritieni che il paese associato al 
+                  il tuo indirizzo IP oppure la residenza vicino a un confine territoriale. <a href="#"> Contattaci </a> se ritieni che il paese associato al 
                   tuo account sia sbagliato.'
             ]
             ],
@@ -86,26 +86,26 @@ $sections = [
             'paragraphs' => [
                 'I risultati di ricerca di Google rispecchiano i contenuti pubblicamente disponibili sul Web. I motori di ricerca non
                  possono rimuovere i contenuti direttamente dai siti web, quindi rimuovere risultati di ricerca da Google non consente
-                  di rimuovere i contenuti dal Web. Se desideri rimuovere qualcosa dal Web, devi contattare il webmaster del sito su cui 
+                  di rimuovere i contenuti dal Web. Se desideri rimuovere qualcosa dal Web, devi <a href="#"> contattare il webmaster </a> del sito su cui 
                   sono pubblicati i 
                 contenuti e chiedergli di apportare una modifica. Inoltre, se, ai sensi delle leggi europee per la protezione dei dati, 
                 desideri richiedere la rimozione di determinate informazioni su di te visualizzate nei risultati di ricerca di Google,
-                 fai clic qui. Una volta che i contenuti saranno stati rimossi e che Google avrà rilevato l\'aggiornamento, le informazioni
+                <a href="#">  fai clic qui. </a> Una volta che i contenuti saranno stati rimossi e che Google avrà rilevato l\'aggiornamento, le informazioni
                   non verranno più visualizzate nei risultati di ricerca di Google. In caso di una richiesta di rimozione urgente, è inoltre
-                   possibile visitare la nostra pagina di assistenza per avere ulteriori informazioni.'
+                   possibile <a href="#"> visitare la nostra pagina di assistenza per avere ulteriori informazioni. </a>'
             ]
             ],
          
         'keys' => [
             'title' => 'Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai siti web?',
             'paragraphs' => [
-                'In alcuni casi sì. Quando fai clic su un risultato della Ricerca Google, 
+                'In alcuni casi sì. Quando fai clic  su un risultato della Ricerca Google, 
                 il tuo browser web potrebbe reindirizzare alla pagina web di destinazione anche l\'indirizzo Internet, 
-                o URL, della pagina dei risultati di ricerca sotto forma di URL referrer. Talvolta, l\'URL della pagina dei risultati di 
+                o URL, della pagina dei risultati di ricerca sotto forma di<a href="#">  URL referrer </a>. Talvolta, l\'URL della pagina dei risultati di 
                 ricerca potrebbe contenere la query di ricerca che hai inserito. Se utilizzi la ricerca SSL (la funzione di ricerca criptata 
                 di Google), nella maggior parte dei casi i termini di ricerca non vengono inviati come parte dell\'URL negli URL referrer. 
                 Questo comportamento può fare eccezione, ad esempio se utilizzi alcuni browser meno diffusi. Ulteriori informazioni sulla
-                 ricerca SSL sono disponibili qui. Le query di ricerca o le informazioni contenute nell\'URL referrer potrebbero essere 
+                 ricerca SSL sono disponibili <a href="#">  qui </a>. Le query di ricerca o le informazioni contenute nell\'URL referrer potrebbero essere 
                  disponibili mediante Google Analytics o un\'API (Application Programming Interface). Inoltre, gli inserzionisti potrebbero 
                  ricevere informazioni relative all\' esatte parole chiave che hanno determinato il clic su un annuncio.'
             ]
