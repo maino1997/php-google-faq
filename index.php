@@ -110,7 +110,13 @@ $sections = [
                  ricevere informazioni relative all\' esatte parole chiave che hanno determinato il clic su un annuncio.'
             ]
         ]    
-]
+            ];
+
+$page_links = [
+    'Introduzione', 'Norme sulla Privacy' , 'Termini di Servizio' , 'Tecnologie' , 'Domande frequenti'
+];   
+
+$footer_links = ['Google' , 'Tutto su Google' , 'Pricavy' , 'Termini'];
 
 ?>
 
@@ -124,11 +130,29 @@ $sections = [
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">ù
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header> 
+        <div class="left-header">
+            <div class="upper-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google.png" alt="logo" id="logo">
+                <span>Privacy e Termini</span>
+            </div>
+            <div class="bottom-header">
+                <ul>
+                   <?php foreach($page_links as $link) : ?>
+                   <li><a href="#"> <?php echo $link ?></a></li>
+                   <?php endforeach; ?> 
+                </ul>
+            </div>
+        </div>
+        <div class="right-header"></div>
+    
             </header>
             
     <main class="container">
@@ -148,18 +172,26 @@ $sections = [
     <?php endforeach;?>    
             </main>
             
-    <footer>
+            <footer >
+                <div class="container">
+                    <div class="flex-cont">
 
-    <ol>
-        <li>adf</li>
-        <li>asdf</li>
-        <li>array_diff_key</li>
-        <ol>
-            <li>adf</li>
-            <li>adf</li>
-            <li>adf</li>
-        </ol>
-    </ol>
+                        <div class="footer-left">
+                            <ul>
+                                <?php foreach($footer_links as $footer_link) : ?>
+                                    <li><a href="#"> <?php echo $footer_link ?> </a></li>
+                                    <?php endforeach; ?>
+                                </ul>
+                            </div>
+                            <div class="footer-right">
+                                <select  id="">
+                                    <option value="Italiano">Italiano</option>
+                                </select>
+                            </div>
+                        </div>
+            </div>
+
+   
             </footer>      
 </body>
 </html>
