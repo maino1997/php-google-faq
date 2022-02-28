@@ -5,7 +5,7 @@ $sections = [
         'title' => 'Come state implementando la recente decisione della 
             Corte di giustizia dell \'Unione europea (CGUE) relativa al diritto all \'oblio?',
         'paragraphs' => [
-            'La recente decisione della Corte di giustizia dell \'Unione europea ha profonde conseguenze per 
+            'La recente <a href="#"> decisione della Corte di giustizia dell \'Unione europea </a> ha profonde conseguenze per 
             i motori di ricerca in Europa. La Corte ha stabilito che alcuni utenti hanno il diritto di chiedere 
             ai motori di ricerca come Google di rimuovere risultati relativi a chiavi di ricerca che includono il proprio nome.
              Per poter essere rimossi, 
@@ -54,14 +54,14 @@ $sections = [
             
         'country' => [
             'title' => 'Perché il mio account è associato a un paese?',
-            'paragraphs' => ['Il tuo account è associato a un paese (o territorio) nei Termini di servizio 
+            'paragraphs' => [' <ol class="first-ul"> Il tuo account è associato a un paese (o territorio) nei Termini di servizio 
             per poter stabilire due cose:',
-            '1.   La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. 
-            Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:',
-            '     a     Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell\'Unione europea, oltre a Islanda, 
-            4Liechtenstein e Norvegia) o in Svizzera.',
-            '     b     Google LLC, con sede negli Stati Uniti, per il resto del mondo.',
-            '2.   La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.',
+            '<li>   La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. 
+            Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:</li><ol class="second-ul" type="a">',
+            '<li>       Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell\'Unione europea, oltre a Islanda, 
+            4Liechtenstein e Norvegia) o in Svizzera.</li>',
+            '<li>        Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li></ol>',
+            '<li>  La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.</li></ol>',
             'Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.'
             ]
         ],
@@ -121,21 +121,25 @@ $sections = [
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header> 
             </header>
             
-    <main>
+    <main class="container">
     <?php foreach($sections as $section) : ?>
 
     <section>
 
+        <h2> <?php echo $section['title'] ?></h2>
 
-                <h2> <?php echo $section['title'] ?>  </h2>
                  <?php foreach($section['paragraphs'] as $paragraph) : ?>  
-                    <p><h2> <?php echo $paragraph?>  </h2></p>
+                    <p> <?php echo $paragraph?></p>
                  <?php endforeach; ?>
 
 
@@ -145,6 +149,17 @@ $sections = [
             </main>
             
     <footer>
+
+    <ol>
+        <li>adf</li>
+        <li>asdf</li>
+        <li>array_diff_key</li>
+        <ol>
+            <li>adf</li>
+            <li>adf</li>
+            <li>adf</li>
+        </ol>
+    </ol>
             </footer>      
 </body>
 </html>
