@@ -164,7 +164,7 @@ $footer_links = ['Google', 'Tutto su Google', 'Pricavy', 'Termini'];
 
     </header>
 
-    <main>
+    <main style="padding-top: 150px">
         <div class="container">
 
             <?php foreach ($sections as $section) : ?>
